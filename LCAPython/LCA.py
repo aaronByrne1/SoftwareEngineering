@@ -6,10 +6,10 @@ class LCA:
 
     def lowestCommonAncestor(self, root, p, q):
         """
-        :type root: TreeNode
-        :type p: TreeNode
-        :type q: TreeNode
-        :rtype: TreeNode
+        :type root: Tree
+        :type p: Tree
+        :type q: Tree
+        :rtype: Tree
         """
         def recurse_tree(current_node):
 
