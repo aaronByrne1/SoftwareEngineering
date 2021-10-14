@@ -22,7 +22,7 @@ def main():
         d.left=h
 
         solution=LCA()
-        answer=solution.lowestCommonAncestor(a,d,h)
+        answer=solution.lowestCommonAncestor(a,d,c)
         print(answer.val)
         print(" this is the answer")
 if __name__ == "__main__":
